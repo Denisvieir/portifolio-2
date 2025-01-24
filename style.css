@@ -10,6 +10,37 @@ body {
 /* Navbar */
 .navbar {
     display: flex;
+
+    /* Adicionando estilos para a seção de assinatura */
+    .subscription {
+        padding: 20px;
+        background-color: #1e1e1e;
+        border-radius: 8px;
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    .subscription h2 {
+        color: #f0f0f0;
+    }
+
+    .subscription p {
+        color: #b0b0b0;
+    }
+
+    .subscription button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .subscription button:hover {
+        background-color: #0056b3;
+    }
+
     justify-content: space-between;
     align-items: center;
     padding: 10px 20px;
