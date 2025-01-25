@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const heroSection = document.querySelector('.hero');
     const portfolioItems = document.querySelectorAll('.portfolio-item');
     
-    // Animação para a seção hero
+    
     heroSection.style.opacity = 0;
     heroSection.style.transform = 'translateY(50px)';
     setTimeout(() => {
@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function() {
         heroSection.style.transform = 'translateY(0)';
     }, 100);
 
-    // Animação para os itens do portfólio
+    
     portfolioItems.forEach((item, index) => {
         item.style.opacity = 0;
         item.style.transform = 'translateY(20px)';
