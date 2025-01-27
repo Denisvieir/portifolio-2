@@ -10,6 +10,11 @@
 
 </head>
 <body>
+    <video autoplay loop muted class="background-video">
+        <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        Seu navegador não suporta o vídeo.
+    </video>
+
     <nav class="navbar">
         <div class="logo">Denis Sebastião</div>
         <div class="menu">
@@ -20,21 +25,24 @@
     </nav>
 
     <section id="hero" class="hero">
+        <img src="avatar.png" alt="Avatar" class="avatar">
         <h1> Seja Bem-vindo ao meu Portfólio</h1>
         <p>Sou Denis Sebastião Moura Vieira, desenvolvedor front-end apaixonado por criar experiências digitais incríveis.</p>
-        <button onclick="window.location.href='https://wa.me/5596984051847'">Agendar Reunião</button>
+        <button onclick="window.location.href='tel://wa.me/5596984051847'">Agendar Reunião</button>
     </section>
 
     <section id="portfolio" class="portfolio">
         <div class="portfolio-item">
             <h3>Projeto 1</h3>
-            <a href="https://denisvieir.github.io/01-Site-Denis-Vieira/">Visitar Site</a>
+            <a href="https://denisvieir.github.io/01-Site-Denis-Vieira/" class="btn-visitar-site">Visitar Site</a>
 
-            <p>Técnologias aplicada no projeto:html,css,js,git hub.</p>
+            <p>Técnologias aplicada no projeto:html,css,js,git hub e com auxilio da IA Black Box..</p>
         </div>
         <div class="portfolio-item">
-            <h3>Projeto 2</h3>
-            <p>Descrição breve do projeto, tecnologias utilizadas e impacto gerado.</p>
+            <h3>Projeto 2</h3> 
+            <a href="https://denisvieir.github.io/portifolio-2" class="btn-visitar-site">Visitar Site</a>
+            <p>Técnologias aplicadas no projeto:HTML,CSS,js git hub e com auxilio da IA Black Box.</p>
+            <p>Portifolio feito em  uma hoira.</p>
         </div>
         <div class="portfolio-item">
             <h3>Projeto 3</h3>
@@ -44,6 +52,8 @@
 
     <section id="cta" class="cta">
         <h2>Entre em Contato</h2>
+        <p>Telefone: 96984051847</p>
+
         <p>Gostaria de discutir um projeto ou saber mais sobre meu trabalho? Agende uma reunião comigo!</p>
         <button onclick="window.location.href='mailto:denisvieiera_20@hotmail.com'">Enviar E-mail</button>
     </section>
