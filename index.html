@@ -10,7 +10,7 @@
 
 </head>
 <body>
-    <video autoplay loop muted class="background-video">
+    <video autoplay loop muted class="background-video" aria-label="Vídeo de fundo do portfólio">
         <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
         Seu navegador não suporta o vídeo.
     </video>
@@ -18,9 +18,9 @@
     <nav class="navbar">
         <div class="logo">Denis Sebastião</div>
         <div class="menu">
-            <a href="#hero">Início</a>
-            <a href="#portfolio">Portfólio</a>
-            <a href="#cta">Contato</a>
+            <a href="#hero" aria-label="Ir para a seção Início">Início</a>
+            <a href="#portfolio" aria-label="Ir para a seção Portfólio">Portfólio</a>
+            <a href="#cta" aria-label="Ir para a seção Contato">Contato</a>
         </div>
     </nav>
 
@@ -28,21 +28,20 @@
         <img src="avatar.png" alt="Avatar" class="avatar">
         <h1> Seja Bem-vindo ao meu Portfólio</h1>
         <p>Sou Denis Sebastião Moura Vieira, desenvolvedor front-end apaixonado por criar experiências digitais incríveis.</p>
-        <button onclick="window.location.href='tel://wa.me/5596984051847'">Agendar Reunião</button>
+        <button onclick="window.location.href='tel://wa.me/5596984051847'" aria-label="Agendar reunião">Agendar Reunião</button>
     </section>
 
     <section id="portfolio" class="portfolio">
         <div class="portfolio-item">
             <h3>Projeto 1</h3>
-            <a href="https://denisvieir.github.io/01-Site-Denis-Vieira/" class="btn-visitar-site">Visitar Site</a>
-
-            <p>Técnologias aplicada no projeto:html,css,js,git hub e com auxilio da IA Black Box..</p>
+            <a href="https://denisvieir.github.io/01-Site-Denis-Vieira/" class="btn-visitar-site" aria-label="Visitar o site do Projeto 1">Visitar Site</a>
+            <p>Tecnologias aplicadas no projeto: HTML, CSS, JS, GitHub e com auxílio da IA Black Box.</p>
         </div>
         <div class="portfolio-item">
             <h3>Projeto 2</h3> 
-            <a href="https://denisvieir.github.io/portifolio-2" class="btn-visitar-site">Visitar Site</a>
-            <p>Técnologias aplicadas no projeto:HTML,CSS,js git hub e com auxilio da IA Black Box.</p>
-            <p>Portifólio feito em  uma hora.</p>
+            <a href="https://denisvieir.github.io/portifolio-2" class="btn-visitar-site" aria-label="Visitar o site do Projeto 2">Visitar Site</a>
+            <p>Tecnologias aplicadas no projeto: HTML, CSS, JS, GitHub e com auxílio da IA Black Box.</p>
+            <p>Portfólio feito em uma hora.</p>
         </div>
         <div class="portfolio-item">
             <h3>Projeto 3</h3>
@@ -53,9 +52,8 @@
     <section id="cta" class="cta">
         <h2>Entre em Contato</h2>
         <p>Telefone: 96984051847</p>
-
         <p>Gostaria de discutir um projeto ou saber mais sobre meu trabalho? Agende uma reunião comigo!</p>
-        <button onclick="window.location.href='mailto:denisvieiera_20@hotmail.com'">Enviar E-mail</button>
+        <button onclick="window.location.href='mailto:denisvieiera_20@hotmail.com'" aria-label="Enviar E-mail">Enviar E-mail</button>
     </section>
 
     <footer class="footer">
